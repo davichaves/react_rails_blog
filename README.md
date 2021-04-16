@@ -72,4 +72,4 @@ reployed to heroku using command line tools using the following commands
  heroku run rake db:seed #add 9 posts
 ```
 
-[demo link](ttps://blog-rails-react-dc.herokuapp.com/)
+[demo link](https://blog-rails-react-dc.herokuapp.com/)
