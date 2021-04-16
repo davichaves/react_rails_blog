@@ -14,27 +14,35 @@ Make sure you have the same ruby version in your local machine. Use rvm or rbenv
 
 clone the repo and run the following commands:
 
+```shell
 bundle install
 rails db:create
 rails db:migrate
 rails db:seed
+```
 
 Then you need to add an API key for the news API. I'm sending a .env with my submission. but if you need one send an email to 95.davi@gmail.com
 
 once you add the API key just run
 
+```shell
 rails s
+```
 
 then go to http://localhost:3000 to see the live app.
 
 - Database creation
 
+```shell
 rails db:create
 rails db:migrate
+```
 
 - Database initialization
 
+```shell
 rails db:seed #add 9 posts
+```
 
 - How to run the test suite
 
