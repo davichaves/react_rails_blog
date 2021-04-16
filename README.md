@@ -46,7 +46,9 @@ rails db:seed #add 9 posts
 
 - How to run the test suite
 
+```shell
 rails test
+```
 
 - Linter
 
@@ -54,10 +56,20 @@ using eslint with prettier.
 
 file is .eslintrc.js
 
+```shell
 yarn run eslint
+```
 
 - Deployment instructions
 
-reployed to heroku using command line tools.
+reployed to heroku using command line tools using the following commands
+
+```shell
+ heroku login
+ heroku git:remote -a [APP_NAME]
+ git push heroku master
+ heroku run rake db:migrate
+ heroku run rake db:seed #add 9 posts
+```
 
 [https://blog-rails-react-dc.herokuapp.com/](demo link)
